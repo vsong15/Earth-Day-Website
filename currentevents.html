@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial=scale=1.0">
+	<meta charset="utf-8" />
+	<title>Earth Day 2020: 50th Anniversary</title>
+	<link rel="stylesheet" href=styles.css>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+	</script>
+	<script src="parallax.min.js">
+	</script>
+	<link href="http://fonts.googleapis.com/css?family-Poppins" rel="sytlesheet">
+</head>
+
+<body>
+	<div class="container">
+		<nav>
+			<div class="logo">
+				<h1>EARTH DAY 2020</h1>
+			</div>
+				<ul class="nav-links">
+					<li>
+					<div class="nav-link-wrapper">
+						<a href="index.html">Home</a>
+					</div>
+					</li>
+					<li>
+					<div class="nav-link-wrapper">
+						<a href="pollution.html">Pollution</a>
+					</div>
+					</li>
+					<li>
+					<div class="nav-link-wrapper">
+						<a href="climatechange.html">Climate</a>
+					</div>
+					</li>
+					<li>
+					<div class="nav-link-wrapper">
+						<a href="energyconservation.html">Energy</a>
+					</div>
+					</li>
+					<li>
+					<div class="nav-link-wrapper">
+						<a href="environment.html">Environment</a>
+					</div>
+					</li>
+					<li>
+					<div class="nav-link-wrapper">
+						<a href="overpopulation.html">Overpopulation</a>
+					</div>
+					</li>
+					<li>
+					<div class="nav-link-wrapper active-nav-link">
+						<a href="currentevents.html">News</a>
+					</div>
+					</li>
+					<li>
+					<div class="nav-link-wrapper">
+						<a href="sources.html">Sources</a>
+					</div>
+					</li>
+					<li>
+					<div class="nav-link-wrapper">
+						<a href="https://earth.google.com/web/">🌎</a>
+					</div>
+					</li>
+					<li>
+					<div class="nav-link-wrapper">
+						<body>
+							<form action="https://www.google.com/search" methods="GET">
+								<input type="text" name="q" placeholder="Google Search">
+              <input type="submit" value ="Google Search">
+            </form>
+        		</body>
+					</div>
+					</li>
+			</ul>
+				<div class="nav-wrapper">
+				<div class="burger">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
+		</div>
+		</nav>
+		<script src="app.js"></script>
+	</div>
+</body>
+
+<div class="containerTwo">
+<center>
+<h2>
+    What's happening in our world today?
+</h2>
+</center>
+</div>
+
+<div class ="body">
+<body>
+
+    <div class="clock">
+        <div class="hour">
+          <div class="hr" id="hr"></div>
+        </div>
+        <div class="min">
+          <div class="mn" id="mn"></div>
+        </div>
+        <div class="sec">
+          <div class="sc" id="sc"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+      const deg = 6;
+      const hr = document.querySelector('#hr');
+      const mn = document.querySelector('#mn');
+      const sc = document.querySelector('#sc');
+
+      setInterval(() => {
+      let day = new Date();
+      let hh = day.getHours() * 30;
+      let mm = day.getMinutes() * deg;
+      let ss = day.getSeconds() * deg;
+
+      hr.style.transform = `rotateZ(${(hh)+(mm/12)}deg)`;
+      mn.style.transform = `rotateZ(${mm}deg)`;
+      sc.style.transform = `rotateZ(${ss}deg)`;
+      })
+
+      
+    </script>
+</body>
+</div>
+<div class="containerTwo">
+  <p>
+    COVID-19 is triggering the chaos of world commerce, the cancelation of flights and other people are either employed or remaining at home. Everything, as we knew it, has been evolving beyond comprehension. 
+<p><br></br></p > However there still includes some important beneficial environmental effects. Below are a few great examples. 
+</p><br></br><h3 > What impact will the coronavirus outbreak have on the environment?
+    </h3>
+  </div>
+  <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="map9.png">
+  <center>
+		<p class="info">
+</p>
+  </center>
+ </div>
+ <div class="containerTwo">
+  <h4>
+      Air pollution has dropped significantly in China</h4><br></br>
+      <p>
+       A substantial reduction in air quality in several areas of the world has been one of the big impacts of the coronavirus epidemic. The decline, shown most prominently in industrialized or emerging manufacturing nations such as China and Europe, demonstrates just how much economic production has been shut down.
+</p><br></br><p>
+Many researchers have regarded satellite images from NASA and the European Space Agency (ESA) as the "largest-scale project ever" in terms of pollution mitigation worldwide. In the past few weeks, evidence from satellites such as the ESA Sentinel-5P Satellite has demonstrated a substantial decrease in polluting gases such as nitrogen dioxide (NO₂).
+      </p><br></br><p>
+       Nitrogen dioxide is emitted mainly by car engines, power plants and other industrial operations, it is assumed to be the source of a multitude of health problems, especially respiratory disorders such as asthma. Wuhan, Central China has witnessed one of the biggest declines in the coal industry. Since January the town has been under tight lockdown.
+</p><br></br><p>
+Many of its 11 million people were restricted to their homes and their factories, while trade essentially ended. It culminated in an emission decline of 10-30 percent throughout the quarantine.
+        </p>
+</div>
+  <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="https://thehill.com/sites/default/files/ca_venice_31820getty.jpg">
+  <center>
+		<p class="info">
+</p>
+  </center>
+ </div>
+ <div class="containerTwo">
+    <h4>The waters of Venice are clean once again</h4>
+    <br></br>
+    <p>
+The unintended impact of coronavirus on the atmosphere was found in Venice, Italy. Despite the amount of visitors declining owing to the epidemic, the waters in the canals of Venice are healthier than they were in living memory.
+    </p><br></br><p>
+Sediment churning, and other water contaminants have fallen significantly with items like motorboats practically "grounded." Residents have been shocked at how pure the water has been in most parts of Venice.
+</p><br></br><p>
+In reality, so much so that fish can be seen in the canals once more.
+    </p>
+    </div>
+  <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="https://pbs.twimg.com/media/ETgeGIQWsAAD5pg?format=jpg&name=large">
+  <center>
+		<p class="info">
+</p>
+  </center>
+ </div>
+ <div class="containerTwo">
+    <h4>New York's air has also gotten cleaner</h4>
+    <br></br><p>
+     So many residents around the world voluntarily or by official order to self-isolate, several big cities outside of China are also seeing their air quality increasing. New York is one such case.
+<p><br></br><p>
+Researchers noticed that air pollution such as carbon dioxide in New York had a 5 to 10 percent decline. Methane emissions have declined significantly.
+<p><br></br><p>
+Traffic rates are also down dramatically, with some figures of 35 per cent in the city. Carbon monoxide levels have already plummeted by 50 per cent elsewhere.
+    </p>
+</div>
+  <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="https://i.insider.com/5e6e9228c485407bd1433832?width=1100&format=jpeg&auto=webp">
+  <center>
+		<p class="info">
+</p>
+  </center>
+ </div>
+ <div class="containerTwo">
+    <h4>Air pollution is dropping as planes are getting grounded</h4>
+    <br></br><p>
+Another significant environmental impact was a substantial decline in air traffic. Air traffic in areas like Europe has taken on a drastic nosedive.
+<p><br></br><p>
+It greatly increases the air quality and rising atmosphere emissions over many countries around the world. With less aircraft flying about, issues related to exhaust pollution are easing.
+<p><br></br><p>
+Throughout the first 3 months of 2020, anywhere in the range of 67 million fewer travelers traveled than the year before. Flight carriers and politicians are both waiting to work out how worse things could get in the coming months.
+<p><br></br><p>
+Many carriers are seeing more and more of their flights cancelled. Much like the flu travels all over the world. With this cause, as a consequence, the IATA has projected the industry will be in this year for a loss of $113 billion.
+<p>
+  </div>
+  <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="https://img4.goodfon.com/wallpaper/nbig/1/96/combustion-coal-power-fire-red.jpg">
+  <center>
+		<p class="info">
+</p>
+  </center>
+ </div>
+ <div class="containerTwo">
+    <h4>Emissions from coal combustion are falling in China</h4>
+    <br></br><p>
+The marked fall in coal use is yet another effect on the atmosphere as a result of coronavirus. This has contributed to the decline in air pollution in countries such as China, in no small part.
+<p><br></br><p>
+This not only increases the air quality in the impacted regions but also decreases the amount of environmental contaminants such as carbon dioxide, carbon monoxide, and nitrous oxides.
+<p><br></br><p>
+China currently ranks among the top coal producers and consumers. They were expected to need around 59 percent of it in 2018 for their energy needs. It helps runs much of its industry and is also used as a domestic fuel source for many of its citizens.
+<p><br></br><p>
+According to CREA's review of WIND numbers, China's main coal-fired power stations suffered a 36 percent decrease in usage between February and March this year.
+<p>
+  </div>
+  <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="https://ak5.picdn.net/shutterstock/videos/5411015/thumb/1.jpg">
+  <center>
+		<p class="info">
+</p>
+  </center>
+ </div>
+ <div class="containerTwo">
+   <h4>Domestic energy use rising, commercial use is falling further reducing emissions</h4>
+    <br></br><p>
+When more and more residents around the planet are being placed under curfew, profiles of energy use in buildings are being disturbed. With many working household energy usage now expected to have risen dramatically.
+<p><br></br><p>
+It has been estimated that in the U.S. alone this has increased from 6 to 8 percent everywhere. In comparison, with less inhabitants in industrial or residential buildings, their energy use is projected to decline by as much as a quarter to 30%.
+<p><br></br><p>
+Overall, this would conserve electricity, because the rise in residential usage is more than balanced by the larger decline in industrial and professional building uses. This also has the knock-on impact of rising polluting fuel usage at power plants as demand declines.
+<p>
+  </div>
+  <div class="parallax-window" data-parallax="scroll" data-z-index="1" data-image-src="https://thefederalist.com/wp-content/uploads/2016/04/23692333176_9f641e967e_o.jpg">
+  <center>
+		<p class="info">
+</p>
+  </center>
+ </div>
+ <div class="containerTwo">
+   <h4>We can now meet our Paris Climate Accord goals sooner</h4>
+    <br></br><p>
+Ultimately, certain analysts say that because of the pandemic, nations will be willing to fulfill their Paris Climate Agreement targets. When industries such as transportation and manufacturing come to a grinding halt, the associated pollution that they generate are often dropping as a consequence.
+<p><br></br><p>
+This might involuntarily require those impacted countries to reach their commitments for the 2015 Paris Climate Accord.
+<p>
+ </div>
+</html>
